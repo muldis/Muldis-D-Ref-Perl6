@@ -1,20 +1,11 @@
-/blib/
-/.build/
-_build/
-cover_db/
-inc/
-Build
-!Build/
-Build.bat
-.last_cover_stats
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/META.yml
-/META.json
-/MYMETA.*
-nytprof.out
-/pm_to_blib
-*.o
-*.bs
-/_eumm/
+# Mac OS X filesystem metadata files.
+*.DS_Store
+
+
+# Gitignore for Perl 6 (http://www.perl6.org)
+# As part of https://github.com/github/gitignore
+# DD Note 20161122 - See https://github.com/briandfoy/gitignore/blob/d8776bf259fc6ee3ffbb227ab3a00c1bed49ac56/Perl6.gitignore
+
+# precompiled files
+.precomp
+lib/.precomp
